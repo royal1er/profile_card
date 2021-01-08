@@ -1,0 +1,90 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("./images/bg-pattern-bottom.svg");
+  /* background-image: url("./images/bg-pattern-top.svg"); */
+  width: auto;
+  height: auto;
+
+
+}
+
+.center_profil{
+  width: 40%;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.head_profil{
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 50px;
+  background-image: url("./images/bg-pattern-card.svg");
+  width: 100%;
+
+}
+
+.image_profil{
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  height: 50px;
+  width: 50px;
+  top: 25%;
+  border-radius: 50%;
+}
+.profil_body{
+  padding: 10px;
+  height: auto;
+}
+.bottom_profil{
+
+}
+
+.column {
+  position: relative;
+  float: left;
+  text-align: center;
+  height: 100%;
+
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+  position: relative;
+  height: 100%;
+  width: 33%;
+  bottom: 0;
+  padding-top: 60px;
+
+
+}
+
+.middle {
+width: 33%;
+padding-top: 60px;
+
+}
+
+.right {
+width: 33%;
+padding-top: 60px;
+}
+
+.row{
+  height: 100px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  bottom: 0;
+}
