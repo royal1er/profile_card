@@ -1,32 +1,47 @@
 body{
   background-color: hsl(185, 75%, 39%);
-  background-image: url("./images/bg-pattern-bottom.svg");
+  background-image: url("./images/bg-pattern-bottom.svg"),url("./images/bg-pattern-top.svg");
   /* background-image: url("./images/bg-pattern-top.svg"); */
+  background-blend-mode: screen;
   width: auto;
   height: auto;
 
 
 }
 
+hr {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
 .center_profil{
+  position: relative;
   width: 40%;
-  height: 250px;
+  height: 200px;
   background-color: white;
   border-radius: 10px;
   /* margin-top: auto;
   margin-bottom: auto; */
   margin-left: auto;
-  margin-right:auto;
-  margin-top: auto;
-  margin-bottom: auto;
-
+  margin-right: auto;
 }
 
+.text_profil{
+  text-align: center;
+  padding: 10px;
+  /* padding-top: 1em;
+  padding-bottom: 10p; */
+}
 .head_profil{
   position: relative;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 50px;
+  height: 70px;
   background-image: url("./images/bg-pattern-card.svg");
   width: 100%;
 
@@ -34,57 +49,83 @@ body{
 
 .image_profil{
   position: relative;
+  display: block;
   margin-left:auto;
   margin-right:auto;
   height: 50px;
   width: 50px;
   top: 25%;
-  border-radius: 50%;
+  border: 3px solid #FFF;
+  -webkit-border-radius: 50%;
 }
 .profil_body{
-  padding: 10px;
-  height: auto;
+  position: absolute;
+  padding: 0px;
+  height: 80%;
+  width: 100%;
 }
 .bottom_profil{
 
 }
+.table_profil{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  bottom: 0;
+}
 
-.column {
-  position: relative;
-  float: left;
+th, td {
+  padding: 0;
+  width: 33%;
   text-align: center;
-  height: 100%;
+  border-top: 1px solid #ddd;
+}
+.subtext{
+  font-size: 10px;
+  font-family: monospace;
+  font-weight: 120;
+}
 
+/* .column {
+  position: relative;
+  text-align: center;
 }
 
 /* Set width length for the left, right and middle columns */
-.left {
-  position: relative;
-  height: 100%;
-  width: 33%;
+/* .left {
+  position: absolute;
   bottom: 0;
-  padding-top: 60px;
-
-
+  width: 33%;
 }
 
 .middle {
-width: 33%;
-padding-top: 60px;
-
+  position: absolute;
+  bottom: 0;
+  width: 33%;
+  left: 33%;
 }
 
 .right {
-width: 33%;
-padding-top: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 33%;
+  right:0;
 }
 
 .row{
-  height: 100px;
+  position: relative;
+  bottom: 0;
+  height: 40%;
+
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
   bottom: 0;
-}
+} */ */
