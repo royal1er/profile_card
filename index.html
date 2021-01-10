@@ -6,14 +6,19 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+  <style>
+    /* .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+    .text_profil{font-family: "Kumbh Sans",sans-serif;}
+    .description{font-family: "Kumbh Sans",sans-serif; color: gray;}
+    .number{font-family: "Kumbh Sans",sans-serif; padding-top: 10px;}
+  </style>
 </head>
 <body>
   <div class="profile">
@@ -26,7 +31,7 @@
     </div>
     <div class="profil_body">
       <div class="text_profil">
-        <p><b>Victor Crest </b><a>26</a><br>London</p>
+        <p><b>Victor Crest </b><a class="description">26<br>London</a></p>
       </div>
       <!-- <div class="row">
         <hr>
@@ -49,11 +54,11 @@
       <div class="table_profil">
       <table>
         <tr>
-          <th><b>80K</b>
+          <th><b class="number">80K</b>
           <p class="subtext">Followers</p></th>
-          <th><b>803K</b>
+          <th><b class="number">803K</b>
           <p class="subtext">Likes</p></th>
-          <th><b>1.4K</b>
+          <th><b class="number">1.4K</b>
             <p class="subtext">Photos</p></th>
       </table>
       </div>
