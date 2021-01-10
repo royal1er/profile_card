@@ -104,6 +104,17 @@ th, td {
   font-weight: 120;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: -moz-available;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+}
+
 @media only screen and (max-width: 376px) {
   body {
       background-color: hsl(185, 75%, 39%);
@@ -197,6 +208,7 @@ th, td {
     font-family: monospace;
     font-weight: 120;
   }
+
 }
 
 /* .column {
