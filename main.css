@@ -1,0 +1,105 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 18px;
+}
+li{
+  text-decoration: auto;
+  padding: auto;
+}
+ul{
+  text-decoration: auto;
+  padding: revert;
+}
+p{
+
+}
+h2{
+  text-align: center;
+}
+#container{
+  display: grid;
+  grid-template-areas:
+  "head-content"
+  "folderCandidate"
+  "infosBulle"
+  "Formation"
+  "Experiences";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#head-content{
+  display: grid;
+  grid-area: head-content;
+  grid-template-areas:
+  "logoBelairsup formationCenter logoQualiopi";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#logoBelairsup{
+  grid-area: logoBelairsup;
+}
+#formationCenter{
+  display: grid;
+  grid-area: formationCenter;
+  justify-content: center;
+}
+#logoQualiopi{
+  grid-area: logoQualiopi;
+}
+#tel{
+  text-align: center;
+}
+#folderCandidate{
+  display: grid;
+  grid-area: folderCandidate;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  " . mail ."
+  "contentCandidature contentCandidature Photo"
+  "contentCandidature contentCandidature Photo";
+}
+#mail{
+  grid-area: mail;
+  text-align: center;
+}
+#contentCandidature{
+  grid-area: contentCandidature;
+}
+#Photo{
+  grid-area: Photo;
+}
+#infosBulle{
+  display: grid;
+  grid-area: infosBulle;
+  height: 200px;
+  padding: 10px;
+  border: 3px solid #75727236;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+#Formation{
+  display: grid;
+  grid-area: Formation;
+  height: 200px;
+  border: 3px solid #75727236;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+#Experiences{
+  grid-area: Experiences;
+  height: 200px;
+  border: 3px solid #75727236;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+/* #contentCandidature{
+  grid-area: contentCandidature;
+} */
