@@ -88,14 +88,14 @@ h2{
 #Formation{
   display: grid;
   grid-area: Formation;
-  height: 200px;
+  height: 150px;
   border: 3px solid #75727236;
   border-radius: 20px;
   margin-top: 20px;
 }
 #Experiences{
   grid-area: Experiences;
-  height: 200px;
+  height: 150px;
   border: 3px solid #75727236;
   border-radius: 20px;
   margin-top: 20px;
