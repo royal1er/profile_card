@@ -89,37 +89,37 @@ h2{
   display: grid;
   grid-area: infosBulle;
   height: 100px;
-  padding: 10px;
+  padding: 5px;
   border: 3px solid #75727236;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #infosBulle2{
   display: grid;
   grid-area: infosBulle;
   height: 100px;
-  padding: 10px;
+  padding: 5px;
   border: 3px solid #75727236;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #infosBulle3{
   display: grid;
   grid-area: infosBulle;
   height: 100px;
-  padding: 10px;
+  padding: 5px;
   border: 3px solid #75727236;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #infosBulle4{
   display: grid;
   grid-area: infosBulle;
   height: 100px;
-  padding: 10px;
+  padding: 5px;
   border: 3px solid #75727236;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #Formation{
   display: grid;
